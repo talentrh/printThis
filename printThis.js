@@ -218,7 +218,7 @@
                     this.getContext('2d').drawImage($src[0], 0, 0);
 
                     // Remove the markup from the original
-                    $src.removeData('printthis');
+                    $src.removeAttr('data-printthis');
                 });
             }
 
